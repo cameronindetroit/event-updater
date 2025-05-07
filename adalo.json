@@ -1,0 +1,14 @@
+{
+  "displayName": "eventUpdater",
+  "components": [
+    {
+      "name": "EventUpdater",
+      "manifest": "./src/components/EventUpdater/manifest.json"
+    }
+  ],
+  "author": "CameronBarnes",
+  "description": "This component compares api events and adds new events to the database",
+  "demoAppURL": "https://app.adalo.com/apps/8a983095-c659-48cd-9150-129d5c46e665/screens",
+  "supportURL": "https://www.demoURL.com",
+  "logo": "./example-logo.png"
+}

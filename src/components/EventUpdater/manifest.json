@@ -1,0 +1,289 @@
+{
+  "displayName": "eventUpdater",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "styles": {
+        "fontFamily": "@body",
+        "fontSize": 16,
+        "fontWeight": 500,
+        "textAlignment": "center",
+        "color": "@primary"
+      },
+      "default": "Happy Hacking"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    },
+  {
+    "name": "internalEvents",
+    "displayName": "Company Internal Events",
+    "type": "list"
+},
+{
+  "name": "externalEvents",
+  "displayName": "Company External Events",
+  "type": "list"
+},
+{
+  "name": "externalEventsPage2",
+  "displayName": "Company External Events secondPage",
+  "type": "list"
+},
+{
+  "name": "externalEventsPage3",
+  "displayName": "Company External Events thirdPage",
+  "type": "list"
+},
+{
+  "name": "dateRangeParameters",
+  "displayName": "Date range parameters",
+  "type": "date"
+},
+{
+  "name": "productionMetrics",
+  "displayName": "Company Production Metrics",
+  "type": "list"
+},
+  {
+  "name": "getEventsAction",
+  "displayName": "Click actions",
+  "type": "action"
+},
+{
+  "name": "newEventsAdded",
+  "displayName": "Aditional Actions when data is added to the database",
+  "type": "action",
+  "arguments":[
+    {
+      "type":"text",
+      "displayName":"newEventsCount"
+    }
+  ]
+},
+{
+  "name": "addingEvents",
+  "displayName": "Actions when events are being added",
+  "type": "action"
+},
+{
+  "name": "noDataAvailable",
+  "displayName": "Actions when data is not yet avsailable",
+  "type": "action"
+},
+{
+  "name": "noNewEvents",
+  "displayName": "Actions when there are no new events added",
+  "type": "action"
+},
+{
+  "name": "updatesAdded",
+  "displayName": "Actions after all updates havebeenmade",
+  "type": "action",
+  "arguments": [
+    {
+      "type":"text",
+      "displayName":"updatedEventsCount"
+    },
+    {
+      "type":"text",
+      "displayName":"updatedEvents"
+    }
+  ]
+},
+{
+  "name": "deleteEvents",
+  "displayName": "Actions when an event is deleted",
+  "type": "action",
+  "arguments": [
+    {
+      "type":"number",
+      "displayName":"deletedEventID"
+    }
+  ]
+},
+{
+  "name": "eventsDeleted",
+  "displayName": "Actions when events are deleted",
+  "type": "action",
+  "arguments": [
+    {
+      "type":"number",
+      "displayName":"deletedEventsCount"
+    },
+    {
+      "type":"text",
+      "displayName":"deletedEventDetails"
+    }
+    
+  ]
+},
+{
+"name": "updateEvents",
+"displayName": "Actions when events are updated",
+"type": "action",
+"arguments": [
+  {
+    "type": "number",
+    "displayName": "evntID"
+  },
+  {
+    "type": "date",
+    "displayName": "updatedStartDate"
+  },
+  {
+    "type": "date",
+    "displayName": "updatedEndDate"
+  },
+  {
+    "type": "text",
+    "displayName": "jobName"
+  },
+  {
+    "type": "text",
+    "displayName": "fsmProductionMetric"
+  },
+  {
+    "type": "text",
+    "displayName": "fsmCustomerID"
+  },
+  {
+    "type": "text",
+    "displayName": "fsmClientID"
+  },
+  {
+    "type": "text",
+    "displayName": "streetAddress"
+  },
+  {
+    "type": "text",
+    "displayName": "city"
+  },
+  {
+    "type": "text",
+    "displayName": "state"
+  },
+  {
+    "type": "number",
+    "displayName": "zip"
+  },
+  {
+    "type": "text",
+    "displayName": "notes"
+  },
+  {
+    "type": "text",
+    "displayName": "homeContact"
+  },
+  {
+    "type": "text",
+    "displayName": "mobileContact"
+  },
+  {
+    "type": "number",
+    "displayName": "eventPrice"
+  },
+  {
+    "type": "number",
+    "displayName": "productionScore"
+  }
+]
+},
+{
+  "name": "saveToDatabase",
+  "displayName": "Actions when events are added to the database ",
+  "type": "action",
+  "arguments": [
+    {
+      "type": "date",
+      "displayName": "startDate"
+    },
+    {
+      "type": "date",
+      "displayName": "endDate"
+    },
+    {
+      "type": "text",
+      "displayName": "jobName"
+    },
+    {
+      "type": "text",
+      "displayName": "fsmClientId"
+    },
+    {
+      "type": "text",
+      "displayName": "eventContactFirstName"
+    },
+    {
+      "type": "text",
+      "displayName": "eventContactLastName"
+    },
+    {
+      "type": "text",
+      "displayName": "eventMobileNumber"
+    },
+    {
+      "type": "text",
+      "displayName": "eventHomeNumber"
+    },
+    {
+      "type": "text",
+      "displayName": "eventAddressCity"
+    },
+    {
+      "type": "text",
+      "displayName": "eventAddressState"
+    },
+    {
+      "type": "text",
+      "displayName": "eventAddressStreet"
+    },
+    {
+      "type": "number",
+      "displayName": "eventAddressZip"
+    },
+    {
+      "type": "text",
+      "displayName": "eventNotes"
+    },
+    {
+      "type": "text",
+      "displayName": "productionMetric"
+    },
+    {
+      "type": "number",
+      "displayName": "jobPrice"
+    },
+    {
+      "type": "text",
+      "displayName": "assignedEmployee"
+    },
+    {
+      "type": "text",
+      "displayName": "customerId"
+    },
+    {
+      "type": "number",
+      "displayName": "totalHours"
+    },
+    {
+      "type": "number",
+      "displayName": "productionScore"
+    },
+    {
+      "type" : "list",
+      "displayName": "notesArray"
+    }
+  ]
+}
+  ]
+}
