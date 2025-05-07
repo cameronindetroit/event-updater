@@ -23,3 +23,20 @@ Once the component is installed, you can drag and drop the EventUpdater button o
 -Full Guide coming
 
 Version History 1.0.0 - initial commit
+
+
+**Screenshots**
+
+![Screen Shot 2025-05-07 at 9 49 13 AM](https://github.com/user-attachments/assets/eb3378a9-8b6a-411e-9eb1-708e9d831d90)
+
+![Screen Shot 2025-05-07 at 9 49 25 AM](https://github.com/user-attachments/assets/947b5ed5-81c6-4a8d-87cd-6e791d2f0511)
+
+![Screen Shot 2025-05-07 at 9 49 36 AM](https://github.com/user-attachments/assets/cc197be5-91fa-45e9-a530-38ccef6fb7b0)
+
+![Screen Shot 2025-05-07 at 9 49 49 AM](https://github.com/user-attachments/assets/b5c577cf-a40f-4207-a411-ae8d12631e92)
+
+
+
+
+
+
